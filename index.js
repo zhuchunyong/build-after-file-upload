@@ -28,7 +28,7 @@ class BuildAfterFileUpload {
   }
 
   async connectServer() {
-    const { host, username, password } = this.options;
+    const { host, username = "root", password } = this.options;
     await this.ssh.connect({
       host: host,
       username: username,
