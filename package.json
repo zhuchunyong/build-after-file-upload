@@ -1,0 +1,26 @@
+{
+  "name": "build-after-file-upload",
+  "version": "1.0.0",
+  "description": "webpack plugin. Upload to the server after successful packaging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuchunyong/build-after-file-upload.git"
+  },
+  "keywords": [
+    "plugin",
+    "upload"
+  ],
+  "author": "朱春永",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhuchunyong/build-after-file-upload/issues"
+  },
+  "homepage": "https://github.com/zhuchunyong/build-after-file-upload#readme",
+  "dependencies": {
+    "node-ssh": "^12.0.4"
+  }
+}
