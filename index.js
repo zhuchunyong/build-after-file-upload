@@ -3,6 +3,9 @@ const { NodeSSH } = require("node-ssh");
 class BuildAfterFileUpload {
   constructor(options) {
     this.options = options;
+    if(this.options.production === undefined){
+      this.optionns.production = true;
+    }
     this.ssh = new NodeSSH();
   }
   apply(compiler) {
